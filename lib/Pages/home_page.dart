@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:habit_tracker/Components/habit_tile.dart';
 import 'package:habit_tracker/Components/monthly_summary.dart';
@@ -98,6 +99,17 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Habit Tracker"),
+        actions: [
+          IconButton(
+            onPressed: () async {
+              await FirebaseAuth.instance.signOut();
+            },
+            icon: Icon(Icons.leave_bags_at_home),
+          ),
+        ],
+      ),
       backgroundColor: Colors.grey[300],
       floatingActionButton: MyFloatingActionButton(
         onPressed: createNewHabit,

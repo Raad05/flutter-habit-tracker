@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866956256193",
+    "project_id": "flutter-habit-tracker-dee0c",
+    "storage_bucket": "flutter-habit-tracker-dee0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866956256193:android:8873a9e9f3a100330d8540",
+        "android_client_info": {
+          "package_name": "com.example.habit_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866956256193-pl6r9usuonrqg6s9jtlo822pp434barq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVrQjthH5Ma1_De2GW1UKo39AnYOCVPFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866956256193-pl6r9usuonrqg6s9jtlo822pp434barq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
